@@ -8,6 +8,6 @@ use cortex_m_semihosting::hprintln;
 
 #[entry]
 fn main() -> ! {
-    // println!("Hello, world!");
-    hprintln!("embedded rust...");
+    hprintln!("Embedded rust");
+    hprintln!("Running without main and std library...");
 }
